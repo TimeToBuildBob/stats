@@ -1,0 +1,68 @@
+name: collect
+
+on:
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+  # Bob's host sends private monthly aggregates (brain_commits, sessions) here;
+  # see collect_private.py --emit and scripts/stats/bob-stats-sync.sh in the brain repo.
+  repository_dispatch:
+    types: [private-aggregates]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+      - name: Save private aggregates payload
+        if: github.event_name == 'repository_dispatch'
+        env:
+          PAYLOAD: ${{ toJSON(github.event.client_payload) }}
+        run: printf '%s' "$PAYLOAD" > "$RUNNER_TEMP/private.json"
+      - name: Collect, render, commit if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch -q origin master
+            git reset -q --hard origin/master
+            rc=0
+            if [ "$EVENT" = "repository_dispatch" ]; then
+              python collect_private.py --apply "$RUNNER_TEMP/private.json" || rc=$?
+              msg="chore(data): update private aggregates"
+            else
+              python collect_public.py || rc=$?
+              msg="chore(data): update public metrics"
+            fi
+            # rc=3: a frozen row would have changed; drift is logged, commit it, then fail.
+            if [ "$rc" -ne 0 ] && [ "$rc" -ne 3 ]; then exit "$rc"; fi
+            python render.py
+            if [ -z "$(git status --porcelain)" ]; then
+              echo "No changes"
+              exit "$rc"
+            fi
+            git add data charts LIFETIME.md README.md
+            git commit -q -m "$msg"
+            if git push -q origin HEAD:master; then
+              exit "$rc"
+            fi
+            echo "Push raced another run; retrying"
+            sleep $((attempt * 15))
+          done
+          exit 1
