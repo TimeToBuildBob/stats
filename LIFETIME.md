@@ -4,18 +4,16 @@
 
 How to cite:
 
-> As of 2026-09-14: 4,038 merged public PRs (https://github.com/TimeToBuildBob/stats)
+> As of 2026-09-15: 4,060 merged public PRs (https://github.com/TimeToBuildBob/stats)
 
 ## Lifetime totals
 
 | Metric | Lifetime | Frozen total (through) | Current month (partial) | As of | Scope | Since |
 |---|---:|---:|---:|---|---|---|
-| Merged public PRs (`prs_merged_public`) | **4,038** | 3,774 (2026-08) | 264 (2026-09) | 2026-09-14 | public | 2024-11 |
-| Opened public PRs (`prs_opened_public`) | **4,386** | 4,100 (2026-08) | 286 (2026-09) | 2026-09-14 | public | 2024-11 |
-| Opened public issues (`issues_opened_public`) | **349** | 328 (2026-08) | 21 (2026-09) | 2026-09-14 | public | 2024-11 |
-| Public commits (default branches) (`commits_public_default_branch`) | **8,223** | 7,843 (2026-08) | 380 (2026-09) | 2026-09-14 | public | 2024-11 |
-| Brain repo commits (private) (`brain_commits`) | **89,128** | 80,879 (2026-08) | 8,249 (2026-09) | 2026-09-14 | private | 2025-08 |
-| Agent sessions (private, approximate) (`sessions`) | **18,708** | 16,571 (2026-08) | 2,137 (2026-09) | 2026-09-14 | private | 2026-06 |
+| Merged public PRs (`prs_merged_public`) | **4,060** | 3,774 (2026-08) | 286 (2026-09) | 2026-09-15 | public | 2024-11 |
+| Opened public PRs (`prs_opened_public`) | **4,397** | 4,100 (2026-08) | 297 (2026-09) | 2026-09-15 | public | 2024-11 |
+| Opened public issues (`issues_opened_public`) | **352** | 328 (2026-08) | 24 (2026-09) | 2026-09-15 | public | 2024-11 |
+| Public commits (default branches) (`commits_public_default_branch`) | **8,247** | 7,843 (2026-08) | 404 (2026-09) | 2026-09-15 | public | 2024-11 |
 
 ## Definitions
 
@@ -23,8 +21,6 @@ How to cite:
 - **`prs_opened_public`** (public, since 2024-11): PRs authored by TimeToBuildBob in public repos, by creation month (any final state).
 - **`issues_opened_public`** (public, since 2024-11): Issues authored by TimeToBuildBob in public repos, by creation month.
 - **`commits_public_default_branch`** (public, since 2024-11): Commits authored by TimeToBuildBob in public repos by committer date (GitHub commit search). Commit search indexes default branches only; squash merges count as one commit.
-- **`brain_commits`** (private, since 2025-08): Commits on master of Bob's private brain repo whose author name is 'Bob' (bob@superuserlabs.org, plus a few early/misconfigured Bob identities), by committer date. Starts 2025-08: earlier Bob work was committed under Erik's identity and cannot be separated. Excludes Erik, other agents, and test-fixture identities (Test <test@test.com> etc.).
-- **`sessions`** (private, since 2026-06): Bob agent sessions that ran to a result record (state/sessions/*.result.json): agent_id 'bob-*', status 'completed' with reason clean_exit/nonzero_exit/timeout and duration >= 60s, by completed_at month, deduplicated by session_id. Excludes lock/coordination skips and sub-minute startup failures (never did work), watchdog stubs, and '<synthetic>'/test/mock/unknown models. Starts 2026-06: result records begin 2026-05-20, so 2026-05 is incomplete and omitted.
 
 The exact query or command for every value is stored per row in the ledger's `query` column.
 
@@ -41,28 +37,28 @@ The exact query or command for every value is stored per row in the ledger's `qu
 
 `*` = open month (still recomputed daily); all other values are frozen.
 
-| Month | `prs_merged_public` | `prs_opened_public` | `issues_opened_public` | `commits_public_default_branch` | `brain_commits` | `sessions` |
-|---|---:|---:|---:|---:|---:|---:|
-| 2026-09 | 264* | 286* | 21* | 380* | 8,249* | 2,137* |
-| 2026-08 | 472 | 535 | 48 | 675 | 15,663 | 4,754 |
-| 2026-07 | 517 | 553 | 51 | 798 | 14,056 | 5,011 |
-| 2026-06 | 390 | 411 | 14 | 912 | 16,431 | 6,806 |
-| 2026-05 | 559 | 605 | 49 | 1,379 | 15,195 |  |
-| 2026-04 | 464 | 484 | 30 | 1,024 | 5,479 |  |
-| 2026-03 | 555 | 575 | 42 | 1,108 | 4,788 |  |
-| 2026-02 | 378 | 433 | 20 | 811 | 2,046 |  |
-| 2026-01 | 141 | 155 | 27 | 222 | 1,748 |  |
-| 2025-12 | 136 | 153 | 28 | 269 | 1,532 |  |
-| 2025-11 | 73 | 83 | 3 | 309 | 2,097 |  |
-| 2025-10 | 81 | 103 | 15 | 289 | 1,829 |  |
-| 2025-09 | 2 | 3 | 0 | 9 | 14 |  |
-| 2025-08 | 0 | 0 | 0 | 0 | 1 |  |
-| 2025-07 | 3 | 3 | 0 | 13 |  |  |
-| 2025-06 | 0 | 1 | 0 | 2 |  |  |
-| 2025-05 | 0 | 0 | 0 | 2 |  |  |
-| 2025-04 | 0 | 0 | 1 | 0 |  |  |
-| 2025-03 | 1 | 1 | 0 | 5 |  |  |
-| 2025-02 | 0 | 0 | 0 | 0 |  |  |
-| 2025-01 | 2 | 2 | 0 | 0 |  |  |
-| 2024-12 | 0 | 0 | 0 | 4 |  |  |
-| 2024-11 | 0 | 0 | 0 | 12 |  |  |
+| Month | `prs_merged_public` | `prs_opened_public` | `issues_opened_public` | `commits_public_default_branch` |
+|---|---:|---:|---:|---:|
+| 2026-09 | 286* | 297* | 24* | 404* |
+| 2026-08 | 472 | 535 | 48 | 675 |
+| 2026-07 | 517 | 553 | 51 | 798 |
+| 2026-06 | 390 | 411 | 14 | 912 |
+| 2026-05 | 559 | 605 | 49 | 1,379 |
+| 2026-04 | 464 | 484 | 30 | 1,024 |
+| 2026-03 | 555 | 575 | 42 | 1,108 |
+| 2026-02 | 378 | 433 | 20 | 811 |
+| 2026-01 | 141 | 155 | 27 | 222 |
+| 2025-12 | 136 | 153 | 28 | 269 |
+| 2025-11 | 73 | 83 | 3 | 309 |
+| 2025-10 | 81 | 103 | 15 | 289 |
+| 2025-09 | 2 | 3 | 0 | 9 |
+| 2025-08 | 0 | 0 | 0 | 0 |
+| 2025-07 | 3 | 3 | 0 | 13 |
+| 2025-06 | 0 | 1 | 0 | 2 |
+| 2025-05 | 0 | 0 | 0 | 2 |
+| 2025-04 | 0 | 0 | 1 | 0 |
+| 2025-03 | 1 | 1 | 0 | 5 |
+| 2025-02 | 0 | 0 | 0 | 0 |
+| 2025-01 | 2 | 2 | 0 | 0 |
+| 2024-12 | 0 | 0 | 0 | 4 |
+| 2024-11 | 0 | 0 | 0 | 12 |

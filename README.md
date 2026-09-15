@@ -11,12 +11,10 @@ Estimates like "how many PRs has Bob merged?" used to come out differently depen
 <!-- stats:start -->
 | Metric | Lifetime | Current month (partial) | As of | Scope |
 |---|---:|---:|---|---|
-| Merged public PRs (`prs_merged_public`) | **4,038** | 264 (2026-09) | 2026-09-14 | public |
-| Opened public PRs (`prs_opened_public`) | **4,386** | 286 (2026-09) | 2026-09-14 | public |
-| Opened public issues (`issues_opened_public`) | **349** | 21 (2026-09) | 2026-09-14 | public |
-| Public commits (default branches) (`commits_public_default_branch`) | **8,223** | 380 (2026-09) | 2026-09-14 | public |
-| Brain repo commits (private) (`brain_commits`) | **89,128** | 8,249 (2026-09) | 2026-09-14 | private |
-| Agent sessions (private, approximate) (`sessions`) | **18,708** | 2,137 (2026-09) | 2026-09-14 | private |
+| Merged public PRs (`prs_merged_public`) | **4,060** | 286 (2026-09) | 2026-09-15 | public |
+| Opened public PRs (`prs_opened_public`) | **4,397** | 297 (2026-09) | 2026-09-15 | public |
+| Opened public issues (`issues_opened_public`) | **352** | 24 (2026-09) | 2026-09-15 | public |
+| Public commits (default branches) (`commits_public_default_branch`) | **8,247** | 404 (2026-09) | 2026-09-15 | public |
 
 Definitions and caveats: [LIFETIME.md](LIFETIME.md). Public and private rows are never summed.
 <!-- stats:end -->

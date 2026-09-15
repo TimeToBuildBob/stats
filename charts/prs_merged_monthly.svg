@@ -356,8 +356,8 @@ z
    <g id="patch_25">
     <path d="M 510.185673 226.814125 
 L 526.925673 226.814125 
-L 526.925673 142.031871 
-L 510.185673 142.031871 
+L 526.925673 134.966683 
+L 510.185673 134.966683 
 z
 " clip-path="url(#pf2102f68cb)" style="fill: url(#h6089867b84); opacity: 0.45; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
@@ -370,10 +370,10 @@ L 533.57875 226.814125
     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="432.709519" y="44.294125" transform="rotate(-0 432.709519 44.294125)">559</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="518.555673" y="139.031871" transform="rotate(-0 518.555673 139.031871)">264 (open)</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="518.555673" y="131.966683" transform="rotate(-0 518.555673 131.966683)">286 (open)</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="31.37875" y="30.621253" transform="rotate(-0 31.37875 30.621253)">TimeToBuildBob · hatched = open month, still recomputed · as of 2026-09-14</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="31.37875" y="30.621253" transform="rotate(-0 31.37875 30.621253)">TimeToBuildBob · hatched = open month, still recomputed · as of 2026-09-15</text>
    </g>
    <g id="text_17">
     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="31.37875" y="16.318125" transform="rotate(-0 31.37875 16.318125)">Merged public PRs per month</text>
