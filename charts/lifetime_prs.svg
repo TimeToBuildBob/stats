@@ -103,114 +103,114 @@ L -3.5 0
     </g>
     <g id="ytick_2">
      <g id="line2d_10">
-      <path d="M 39.965313 180.501632 
-L 542.165313 180.501632 
+      <path d="M 39.965313 180.708337 
+L 542.165313 180.708337 
 " clip-path="url(#p2cc6f22aff)" style="fill: none; stroke: #e4e3df; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_11">
       <g>
-       <use xlink:href="#m0b5e856ea1" x="39.965313" y="180.501632" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m0b5e856ea1" x="39.965313" y="180.708337" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_9">
-      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="183.920577" transform="rotate(-0 32.965313 183.920577)">1,000</text>
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="184.127283" transform="rotate(-0 32.965313 184.127283)">1,000</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_12">
-      <path d="M 39.965313 142.757138 
-L 542.165313 142.757138 
+      <path d="M 39.965313 143.17055 
+L 542.165313 143.17055 
 " clip-path="url(#p2cc6f22aff)" style="fill: none; stroke: #e4e3df; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_13">
       <g>
-       <use xlink:href="#m0b5e856ea1" x="39.965313" y="142.757138" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m0b5e856ea1" x="39.965313" y="143.17055" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_10">
-      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="146.176084" transform="rotate(-0 32.965313 146.176084)">2,000</text>
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="146.589495" transform="rotate(-0 32.965313 146.589495)">2,000</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_14">
-      <path d="M 39.965313 105.012645 
-L 542.165313 105.012645 
+      <path d="M 39.965313 105.632762 
+L 542.165313 105.632762 
 " clip-path="url(#p2cc6f22aff)" style="fill: none; stroke: #e4e3df; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_15">
       <g>
-       <use xlink:href="#m0b5e856ea1" x="39.965313" y="105.012645" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m0b5e856ea1" x="39.965313" y="105.632762" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_11">
-      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="108.43159" transform="rotate(-0 32.965313 108.43159)">3,000</text>
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="109.051708" transform="rotate(-0 32.965313 109.051708)">3,000</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_16">
-      <path d="M 39.965313 67.268151 
-L 542.165313 67.268151 
+      <path d="M 39.965313 68.094975 
+L 542.165313 68.094975 
 " clip-path="url(#p2cc6f22aff)" style="fill: none; stroke: #e4e3df; stroke-width: 0.6; stroke-linecap: square"/>
      </g>
      <g id="line2d_17">
       <g>
-       <use xlink:href="#m0b5e856ea1" x="39.965313" y="67.268151" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m0b5e856ea1" x="39.965313" y="68.094975" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
-      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="70.687097" transform="rotate(-0 32.965313 70.687097)">4,000</text>
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="32.965313" y="71.51392" transform="rotate(-0 32.965313 71.51392)">4,000</text>
      </g>
     </g>
    </g>
    <g id="line2d_18">
     <path d="M 54.083385 218.246125 
 L 74.252059 218.246125 
-L 94.420734 218.170636 
-L 114.589409 218.170636 
-L 134.758084 218.132892 
-L 154.926758 218.132892 
-L 175.095433 218.132892 
-L 195.264108 218.132892 
-L 215.432782 218.019658 
-L 235.601457 218.019658 
-L 255.770132 217.944169 
-L 275.938806 214.886865 
-L 296.107481 212.131517 
-L 316.276156 206.998266 
-L 336.444831 201.676292 
-L 356.613505 187.408874 
-L 376.78218 166.46068 
-L 396.950855 148.947235 
-L 417.119529 127.848063 
-L 437.288204 113.127711 
-L 457.456879 93.613808 
-L 477.625553 75.798407 
-L 497.794228 59.832486 
+L 94.420734 218.171049 
+L 114.589409 218.171049 
+L 134.758084 218.133512 
+L 154.926758 218.133512 
+L 175.095433 218.133512 
+L 195.264108 218.133512 
+L 215.432782 218.020898 
+L 235.601457 218.020898 
+L 255.770132 217.945823 
+L 275.938806 214.905262 
+L 296.107481 212.165003 
+L 316.276156 207.059864 
+L 336.444831 201.767036 
+L 356.613505 187.577753 
+L 376.78218 166.744281 
+L 396.950855 149.326747 
+L 417.119529 128.343124 
+L 437.288204 113.703387 
+L 457.456879 94.296351 
+L 477.625553 76.578515 
+L 497.794228 60.061888 
 " clip-path="url(#p2cc6f22aff)" style="fill: none; stroke: #2a78d6; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="line2d_19">
     <path d="M 54.083385 218.246125 
 L 74.252059 218.246125 
-L 94.420734 218.170636 
-L 114.589409 218.170636 
-L 134.758084 218.132892 
-L 154.926758 218.132892 
-L 175.095433 218.132892 
-L 195.264108 218.095147 
-L 215.432782 217.981914 
-L 235.601457 217.981914 
-L 255.770132 217.86868 
-L 275.938806 213.980997 
-L 296.107481 210.848204 
-L 316.276156 205.073297 
-L 336.444831 199.2229 
-L 356.613505 182.879535 
-L 376.78218 161.176451 
-L 396.950855 142.908116 
-L 417.119529 120.072698 
-L 437.288204 104.559711 
-L 457.456879 83.687006 
-L 477.625553 63.493702 
+L 94.420734 218.171049 
+L 114.589409 218.171049 
+L 134.758084 218.133512 
+L 154.926758 218.133512 
+L 175.095433 218.133512 
+L 195.264108 218.095974 
+L 215.432782 217.98336 
+L 235.601457 217.98336 
+L 255.770132 217.870747 
+L 275.938806 214.004355 
+L 296.107481 210.888719 
+L 316.276156 205.145437 
+L 336.444831 199.32708 
+L 356.613505 183.073218 
+L 376.78218 161.48899 
+L 396.950855 143.320701 
+L 417.119529 120.61034 
+L 437.288204 105.182309 
+L 457.456879 84.423913 
+L 477.625553 64.341196 
 L 497.794228 46.886125 
 " clip-path="url(#p2cc6f22aff)" style="fill: none; stroke: #eb6834; stroke-width: 2; stroke-linecap: square"/>
    </g>
@@ -220,13 +220,13 @@ L 542.165313 226.814125
 " style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_13">
-    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="503.794228" y="62.040494" transform="rotate(-0 503.794228 62.040494)">4,197</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="503.794228" y="62.269896" transform="rotate(-0 503.794228 62.269896)">4,214</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="503.794228" y="49.094133" transform="rotate(-0 503.794228 49.094133)">4,540</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="503.794228" y="49.094133" transform="rotate(-0 503.794228 49.094133)">4,565</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="39.965313" y="30.621253" transform="rotate(-0 39.965313 30.621253)">TimeToBuildBob · sum of monthly ledger rows · as of 2026-09-19</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="39.965313" y="30.621253" transform="rotate(-0 39.965313 30.621253)">TimeToBuildBob · sum of monthly ledger rows · as of 2026-09-20</text>
    </g>
    <g id="text_16">
     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="39.965313" y="16.318125" transform="rotate(-0 39.965313 16.318125)">Lifetime public PRs (cumulative)</text>
