@@ -4,16 +4,16 @@
 
 How to cite:
 
-> As of 2026-10-03: 4,598 merged public PRs (https://github.com/TimeToBuildBob/stats)
+> As of 2026-10-04: 4,633 merged public PRs (https://github.com/TimeToBuildBob/stats)
 
 ## Lifetime totals
 
 | Metric | Lifetime | Frozen total (through) | Current month (partial) | As of | Scope | Since |
 |---|---:|---:|---:|---|---|---|
-| Merged public PRs (`prs_merged_public`) | **4,598** | 3,774 (2026-08) | 148 (2026-10) | 2026-10-03 | public | 2024-11 |
-| Opened public PRs (`prs_opened_public`) | **5,077** | 4,100 (2026-08) | 249 (2026-10) | 2026-10-03 | public | 2024-11 |
-| Opened public issues (`issues_opened_public`) | **379** | 328 (2026-08) | 6 (2026-10) | 2026-10-03 | public | 2024-11 |
-| Public commits (default branches) (`commits_public_default_branch`) | **8,847** | 7,843 (2026-08) | 156 (2026-10) | 2026-10-03 | public | 2024-11 |
+| Merged public PRs (`prs_merged_public`) | **4,633** | 4,450 (2026-09) | 183 (2026-10) | 2026-10-04 | public | 2024-11 |
+| Opened public PRs (`prs_opened_public`) | **5,122** | 4,828 (2026-09) | 294 (2026-10) | 2026-10-04 | public | 2024-11 |
+| Opened public issues (`issues_opened_public`) | **381** | 373 (2026-09) | 8 (2026-10) | 2026-10-04 | public | 2024-11 |
+| Public commits (default branches) (`commits_public_default_branch`) | **8,883** | 8,691 (2026-09) | 192 (2026-10) | 2026-10-04 | public | 2024-11 |
 
 ## Definitions
 
@@ -39,8 +39,8 @@ The exact query or command for every value is stored per row in the ledger's `qu
 
 | Month | `prs_merged_public` | `prs_opened_public` | `issues_opened_public` | `commits_public_default_branch` |
 |---|---:|---:|---:|---:|
-| 2026-10 | 148* | 249* | 6* | 156* |
-| 2026-09 | 676* | 728* | 45* | 848* |
+| 2026-10 | 183* | 294* | 8* | 192* |
+| 2026-09 | 676 | 728 | 45 | 848 |
 | 2026-08 | 472 | 535 | 48 | 675 |
 | 2026-07 | 517 | 553 | 51 | 798 |
 | 2026-06 | 390 | 411 | 14 | 912 |
