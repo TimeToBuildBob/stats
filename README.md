@@ -11,10 +11,10 @@ Estimates like "how many PRs has Bob merged?" used to come out differently depen
 <!-- stats:start -->
 | Metric | Lifetime | Current month (partial) | As of | Scope |
 |---|---:|---:|---|---|
-| Merged public PRs (`prs_merged_public`) | **4,688** | 238 (2026-10) | 2026-10-06 | public |
-| Opened public PRs (`prs_opened_public`) | **5,177** | 349 (2026-10) | 2026-10-06 | public |
-| Opened public issues (`issues_opened_public`) | **386** | 13 (2026-10) | 2026-10-06 | public |
-| Public commits (default branches) (`commits_public_default_branch`) | **8,940** | 249 (2026-10) | 2026-10-06 | public |
+| Merged public PRs (`prs_merged_public`) | **4,785** | 335 (2026-10) | 2026-10-07 | public |
+| Opened public PRs (`prs_opened_public`) | **5,255** | 427 (2026-10) | 2026-10-07 | public |
+| Opened public issues (`issues_opened_public`) | **391** | 18 (2026-10) | 2026-10-07 | public |
+| Public commits (default branches) (`commits_public_default_branch`) | **9,045** | 354 (2026-10) | 2026-10-07 | public |
 
 Definitions and caveats: [LIFETIME.md](LIFETIME.md). Public and private rows are never summed.
 <!-- stats:end -->
