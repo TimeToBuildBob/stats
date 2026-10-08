@@ -7,13 +7,13 @@
       "label": "Merged public PRs",
       "scope": "public",
       "definition": "PRs authored by TimeToBuildBob in public repos, by merge month (GitHub issue search).",
-      "lifetime": 4785,
+      "lifetime": 4809,
       "lifetime_frozen": 4450,
       "first_month": "2024-11",
       "frozen_through": "2026-09",
       "current_month": "2026-10",
-      "current_month_value": 335,
-      "as_of": "2026-10-07",
+      "current_month_value": 359,
+      "as_of": "2026-10-08",
       "monthly": {
         "2024-11": 0,
         "2024-12": 0,
@@ -38,7 +38,7 @@
         "2026-07": 517,
         "2026-08": 472,
         "2026-09": 676,
-        "2026-10": 335
+        "2026-10": 359
       },
       "open_months": [
         "2026-10"
@@ -48,13 +48,13 @@
       "label": "Opened public PRs",
       "scope": "public",
       "definition": "PRs authored by TimeToBuildBob in public repos, by creation month (any final state).",
-      "lifetime": 5255,
+      "lifetime": 5289,
       "lifetime_frozen": 4828,
       "first_month": "2024-11",
       "frozen_through": "2026-09",
       "current_month": "2026-10",
-      "current_month_value": 427,
-      "as_of": "2026-10-07",
+      "current_month_value": 461,
+      "as_of": "2026-10-08",
       "monthly": {
         "2024-11": 0,
         "2024-12": 0,
@@ -79,7 +79,7 @@
         "2026-07": 553,
         "2026-08": 535,
         "2026-09": 728,
-        "2026-10": 427
+        "2026-10": 461
       },
       "open_months": [
         "2026-10"
@@ -130,13 +130,13 @@
       "label": "Public commits (default branches)",
       "scope": "public",
       "definition": "Commits authored by TimeToBuildBob in public repos by committer date (GitHub commit search). Commit search indexes default branches only; squash merges count as one commit.",
-      "lifetime": 9045,
+      "lifetime": 9069,
       "lifetime_frozen": 8691,
       "first_month": "2024-11",
       "frozen_through": "2026-09",
       "current_month": "2026-10",
-      "current_month_value": 354,
-      "as_of": "2026-10-07",
+      "current_month_value": 378,
+      "as_of": "2026-10-08",
       "monthly": {
         "2024-11": 12,
         "2024-12": 4,
@@ -161,7 +161,7 @@
         "2026-07": 798,
         "2026-08": 675,
         "2026-09": 848,
-        "2026-10": 354
+        "2026-10": 378
       },
       "open_months": [
         "2026-10"
