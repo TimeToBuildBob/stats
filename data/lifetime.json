@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-09",
+  "as_of": "2026-10-10",
   "source": "https://github.com/TimeToBuildBob/stats/blob/master/data/ledger.csv",
   "method": "month-frozen ledger: months recompute until month_end+3d, then never change; lifetime = sum of months",
   "metrics": {
@@ -171,13 +171,13 @@
       "label": "Brain repo commits (private)",
       "scope": "private",
       "definition": "Commits on master of Bob's private brain repo whose author name is 'Bob' (bob@superuserlabs.org, plus a few early/misconfigured Bob identities), by committer date. Starts 2025-08: earlier Bob work was committed under Erik's identity and cannot be separated. Excludes Erik, other agents, and test-fixture identities (Test <test@test.com> etc.).",
-      "lifetime": 110067,
+      "lifetime": 110895,
       "lifetime_frozen": 99517,
       "first_month": "2025-08",
       "frozen_through": "2026-09",
       "current_month": "2026-10",
-      "current_month_value": 10550,
-      "as_of": "2026-10-09",
+      "current_month_value": 11378,
+      "as_of": "2026-10-10",
       "monthly": {
         "2025-08": 1,
         "2025-09": 14,
@@ -193,7 +193,7 @@
         "2026-07": 14056,
         "2026-08": 15663,
         "2026-09": 18638,
-        "2026-10": 10550
+        "2026-10": 11378
       },
       "open_months": [
         "2026-10"
@@ -203,19 +203,19 @@
       "label": "Agent sessions (private, approximate)",
       "scope": "private",
       "definition": "Bob agent sessions that ran to a result record (state/sessions/*.result.json): agent_id 'bob-*', status 'completed' with reason clean_exit/nonzero_exit/timeout and duration >= 60s, by completed_at month, deduplicated by session_id. Excludes lock/coordination skips and sub-minute startup failures (never did work), watchdog stubs, and '<synthetic>'/test/mock/unknown models. Starts 2026-06: result records begin 2026-05-20, so 2026-05 is incomplete and omitted.",
-      "lifetime": 23901,
+      "lifetime": 24090,
       "lifetime_frozen": 21543,
       "first_month": "2026-06",
       "frozen_through": "2026-09",
       "current_month": "2026-10",
-      "current_month_value": 2358,
-      "as_of": "2026-10-09",
+      "current_month_value": 2547,
+      "as_of": "2026-10-10",
       "monthly": {
         "2026-06": 6806,
         "2026-07": 5011,
         "2026-08": 4754,
         "2026-09": 4972,
-        "2026-10": 2358
+        "2026-10": 2547
       },
       "open_months": [
         "2026-10"
