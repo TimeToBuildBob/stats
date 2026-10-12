@@ -15,8 +15,8 @@ Estimates like "how many PRs has Bob merged?" used to come out differently depen
 | Opened public PRs (`prs_opened_public`) | **5,352** | 524 (2026-10) | 2026-10-11 | public |
 | Opened public issues (`issues_opened_public`) | **394** | 21 (2026-10) | 2026-10-11 | public |
 | Public commits (default branches) (`commits_public_default_branch`) | **9,161** | 470 (2026-10) | 2026-10-11 | public |
-| Brain repo commits (private) (`brain_commits`) | **111,837** | 12,320 (2026-10) | 2026-10-11 | private |
-| Agent sessions (private, approximate) (`sessions`) | **24,325** | 2,782 (2026-10) | 2026-10-11 | private |
+| Brain repo commits (private) (`brain_commits`) | **112,398** | 12,881 (2026-10) | 2026-10-12 | private |
+| Agent sessions (private, approximate) (`sessions`) | **24,497** | 2,954 (2026-10) | 2026-10-12 | private |
 
 Definitions and caveats: [LIFETIME.md](LIFETIME.md). Public and private rows are never summed.
 <!-- stats:end -->
