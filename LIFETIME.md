@@ -4,16 +4,16 @@
 
 How to cite:
 
-> As of 2026-10-15: 5,020 merged public PRs (https://github.com/TimeToBuildBob/stats)
+> As of 2026-10-16: 5,050 merged public PRs (https://github.com/TimeToBuildBob/stats)
 
 ## Lifetime totals
 
 | Metric | Lifetime | Frozen total (through) | Current month (partial) | As of | Scope | Since |
 |---|---:|---:|---:|---|---|---|
-| Merged public PRs (`prs_merged_public`) | **5,020** | 4,450 (2026-09) | 570 (2026-10) | 2026-10-15 | public | 2024-11 |
-| Opened public PRs (`prs_opened_public`) | **5,490** | 4,828 (2026-09) | 662 (2026-10) | 2026-10-15 | public | 2024-11 |
-| Opened public issues (`issues_opened_public`) | **400** | 373 (2026-09) | 27 (2026-10) | 2026-10-15 | public | 2024-11 |
-| Public commits (default branches) (`commits_public_default_branch`) | **9,286** | 8,691 (2026-09) | 595 (2026-10) | 2026-10-15 | public | 2024-11 |
+| Merged public PRs (`prs_merged_public`) | **5,050** | 4,450 (2026-09) | 600 (2026-10) | 2026-10-16 | public | 2024-11 |
+| Opened public PRs (`prs_opened_public`) | **5,529** | 4,828 (2026-09) | 701 (2026-10) | 2026-10-16 | public | 2024-11 |
+| Opened public issues (`issues_opened_public`) | **404** | 373 (2026-09) | 31 (2026-10) | 2026-10-16 | public | 2024-11 |
+| Public commits (default branches) (`commits_public_default_branch`) | **9,317** | 8,691 (2026-09) | 626 (2026-10) | 2026-10-16 | public | 2024-11 |
 | Brain repo commits (private) (`brain_commits`) | **115,717** | 99,517 (2026-09) | 16,200 (2026-10) | 2026-10-16 | private | 2025-08 |
 | Agent sessions (private, approximate) (`sessions`) | **25,391** | 21,543 (2026-09) | 3,848 (2026-10) | 2026-10-16 | private | 2026-06 |
 
@@ -43,7 +43,7 @@ The exact query or command for every value is stored per row in the ledger's `qu
 
 | Month | `prs_merged_public` | `prs_opened_public` | `issues_opened_public` | `commits_public_default_branch` | `brain_commits` | `sessions` |
 |---|---:|---:|---:|---:|---:|---:|
-| 2026-10 | 570* | 662* | 27* | 595* | 16,200* | 3,848* |
+| 2026-10 | 600* | 701* | 31* | 626* | 16,200* | 3,848* |
 | 2026-09 | 676 | 728 | 45 | 848 | 18,638 | 4,972 |
 | 2026-08 | 472 | 535 | 48 | 675 | 15,663 | 4,754 |
 | 2026-07 | 517 | 553 | 51 | 798 | 14,056 | 5,011 |
