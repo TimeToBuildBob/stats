@@ -14,8 +14,8 @@ How to cite:
 | Opened public PRs (`prs_opened_public`) | **5,542** | 4,828 (2026-09) | 714 (2026-10) | 2026-10-17 | public | 2024-11 |
 | Opened public issues (`issues_opened_public`) | **407** | 373 (2026-09) | 34 (2026-10) | 2026-10-17 | public | 2024-11 |
 | Public commits (default branches) (`commits_public_default_branch`) | **9,335** | 8,691 (2026-09) | 644 (2026-10) | 2026-10-17 | public | 2024-11 |
-| Brain repo commits (private) (`brain_commits`) | **116,483** | 99,517 (2026-09) | 16,966 (2026-10) | 2026-10-17 | private | 2025-08 |
-| Agent sessions (private, approximate) (`sessions`) | **25,603** | 21,543 (2026-09) | 4,060 (2026-10) | 2026-10-17 | private | 2026-06 |
+| Brain repo commits (private) (`brain_commits`) | **117,208** | 99,517 (2026-09) | 17,691 (2026-10) | 2026-10-18 | private | 2025-08 |
+| Agent sessions (private, approximate) (`sessions`) | **25,800** | 21,543 (2026-09) | 4,257 (2026-10) | 2026-10-18 | private | 2026-06 |
 
 ## Definitions
 
@@ -43,7 +43,7 @@ The exact query or command for every value is stored per row in the ledger's `qu
 
 | Month | `prs_merged_public` | `prs_opened_public` | `issues_opened_public` | `commits_public_default_branch` | `brain_commits` | `sessions` |
 |---|---:|---:|---:|---:|---:|---:|
-| 2026-10 | 616* | 714* | 34* | 644* | 16,966* | 4,060* |
+| 2026-10 | 616* | 714* | 34* | 644* | 17,691* | 4,257* |
 | 2026-09 | 676 | 728 | 45 | 848 | 18,638 | 4,972 |
 | 2026-08 | 472 | 535 | 48 | 675 | 15,663 | 4,754 |
 | 2026-07 | 517 | 553 | 51 | 798 | 14,056 | 5,011 |
