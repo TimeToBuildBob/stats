@@ -4,16 +4,16 @@
 
 How to cite:
 
-> As of 2026-10-27: 5,323 merged public PRs (https://github.com/TimeToBuildBob/stats)
+> As of 2026-10-28: 5,349 merged public PRs (https://github.com/TimeToBuildBob/stats)
 
 ## Lifetime totals
 
 | Metric | Lifetime | Frozen total (through) | Current month (partial) | As of | Scope | Since |
 |---|---:|---:|---:|---|---|---|
-| Merged public PRs (`prs_merged_public`) | **5,323** | 4,450 (2026-09) | 873 (2026-10) | 2026-10-27 | public | 2024-11 |
-| Opened public PRs (`prs_opened_public`) | **5,859** | 4,828 (2026-09) | 1,031 (2026-10) | 2026-10-27 | public | 2024-11 |
+| Merged public PRs (`prs_merged_public`) | **5,349** | 4,450 (2026-09) | 899 (2026-10) | 2026-10-28 | public | 2024-11 |
+| Opened public PRs (`prs_opened_public`) | **5,869** | 4,828 (2026-09) | 1,041 (2026-10) | 2026-10-28 | public | 2024-11 |
 | Opened public issues (`issues_opened_public`) | **429** | 373 (2026-09) | 56 (2026-10) | 2026-10-27 | public | 2024-11 |
-| Public commits (default branches) (`commits_public_default_branch`) | **9,607** | 8,691 (2026-09) | 916 (2026-10) | 2026-10-27 | public | 2024-11 |
+| Public commits (default branches) (`commits_public_default_branch`) | **9,634** | 8,691 (2026-09) | 943 (2026-10) | 2026-10-28 | public | 2024-11 |
 | Brain repo commits (private) (`brain_commits`) | **123,917** | 99,517 (2026-09) | 24,400 (2026-10) | 2026-10-28 | private | 2025-08 |
 | Agent sessions (private, approximate) (`sessions`) | **27,441** | 21,543 (2026-09) | 5,898 (2026-10) | 2026-10-28 | private | 2026-06 |
 
@@ -43,7 +43,7 @@ The exact query or command for every value is stored per row in the ledger's `qu
 
 | Month | `prs_merged_public` | `prs_opened_public` | `issues_opened_public` | `commits_public_default_branch` | `brain_commits` | `sessions` |
 |---|---:|---:|---:|---:|---:|---:|
-| 2026-10 | 873* | 1,031* | 56* | 916* | 24,400* | 5,898* |
+| 2026-10 | 899* | 1,041* | 56* | 943* | 24,400* | 5,898* |
 | 2026-09 | 676 | 728 | 45 | 848 | 18,638 | 4,972 |
 | 2026-08 | 472 | 535 | 48 | 675 | 15,663 | 4,754 |
 | 2026-07 | 517 | 553 | 51 | 798 | 14,056 | 5,011 |
