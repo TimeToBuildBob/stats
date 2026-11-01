@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "source": "https://github.com/TimeToBuildBob/stats/blob/master/data/ledger.csv",
   "method": "month-frozen ledger: months recompute until month_end+3d, then never change; lifetime = sum of months",
   "metrics": {
@@ -11,8 +11,8 @@
       "lifetime_frozen": 4450,
       "first_month": "2024-11",
       "frozen_through": "2026-09",
-      "current_month": "2026-10",
-      "current_month_value": 952,
+      "current_month": "2026-11",
+      "current_month_value": null,
       "as_of": "2026-10-31",
       "monthly": {
         "2024-11": 0,
@@ -52,8 +52,8 @@
       "lifetime_frozen": 4828,
       "first_month": "2024-11",
       "frozen_through": "2026-09",
-      "current_month": "2026-10",
-      "current_month_value": 1211,
+      "current_month": "2026-11",
+      "current_month_value": null,
       "as_of": "2026-10-31",
       "monthly": {
         "2024-11": 0,
@@ -93,8 +93,8 @@
       "lifetime_frozen": 373,
       "first_month": "2024-11",
       "frozen_through": "2026-09",
-      "current_month": "2026-10",
-      "current_month_value": 143,
+      "current_month": "2026-11",
+      "current_month_value": null,
       "as_of": "2026-10-31",
       "monthly": {
         "2024-11": 0,
@@ -134,8 +134,8 @@
       "lifetime_frozen": 8691,
       "first_month": "2024-11",
       "frozen_through": "2026-09",
-      "current_month": "2026-10",
-      "current_month_value": 999,
+      "current_month": "2026-11",
+      "current_month_value": null,
       "as_of": "2026-10-31",
       "monthly": {
         "2024-11": 12,
@@ -171,13 +171,13 @@
       "label": "Brain repo commits (private)",
       "scope": "private",
       "definition": "Commits on master of Bob's private brain repo whose author name is 'Bob' (bob@superuserlabs.org, plus a few early/misconfigured Bob identities), by committer date. Starts 2025-08: earlier Bob work was committed under Erik's identity and cannot be separated. Excludes Erik, other agents, and test-fixture identities (Test <test@test.com> etc.).",
-      "lifetime": 125852,
+      "lifetime": 126244,
       "lifetime_frozen": 99517,
       "first_month": "2025-08",
       "frozen_through": "2026-09",
-      "current_month": "2026-10",
-      "current_month_value": 26335,
-      "as_of": "2026-10-31",
+      "current_month": "2026-11",
+      "current_month_value": 22,
+      "as_of": "2026-11-01",
       "monthly": {
         "2025-08": 1,
         "2025-09": 14,
@@ -193,32 +193,36 @@
         "2026-07": 14056,
         "2026-08": 15663,
         "2026-09": 18638,
-        "2026-10": 26335
+        "2026-10": 26705,
+        "2026-11": 22
       },
       "open_months": [
-        "2026-10"
+        "2026-10",
+        "2026-11"
       ]
     },
     "sessions": {
       "label": "Agent sessions (private, approximate)",
       "scope": "private",
       "definition": "Bob agent sessions that ran to a result record (state/sessions/*.result.json): agent_id 'bob-*', status 'completed' with reason clean_exit/nonzero_exit/timeout and duration >= 60s, by completed_at month, deduplicated by session_id. Excludes lock/coordination skips and sub-minute startup failures (never did work), watchdog stubs, and '<synthetic>'/test/mock/unknown models. Starts 2026-06: result records begin 2026-05-20, so 2026-05 is incomplete and omitted.",
-      "lifetime": 27959,
+      "lifetime": 28043,
       "lifetime_frozen": 21543,
       "first_month": "2026-06",
       "frozen_through": "2026-09",
-      "current_month": "2026-10",
-      "current_month_value": 6416,
-      "as_of": "2026-10-31",
+      "current_month": "2026-11",
+      "current_month_value": 11,
+      "as_of": "2026-11-01",
       "monthly": {
         "2026-06": 6806,
         "2026-07": 5011,
         "2026-08": 4754,
         "2026-09": 4972,
-        "2026-10": 6416
+        "2026-10": 6489,
+        "2026-11": 11
       },
       "open_months": [
-        "2026-10"
+        "2026-10",
+        "2026-11"
       ]
     }
   }
