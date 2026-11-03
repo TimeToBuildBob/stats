@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="546.404218pt" height="246.514125pt" viewBox="0 0 546.404218 246.514125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="548.949218pt" height="246.514125pt" viewBox="0 0 548.949218 246.514125" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -21,8 +21,8 @@
  <g id="figure_1">
   <g id="patch_1">
    <path d="M 0 246.514125 
-L 546.404218 246.514125 
-L 546.404218 0 
+L 548.949218 246.514125 
+L 548.949218 0 
 L 0 0 
 z
 " style="fill: #ffffff"/>
@@ -363,8 +363,8 @@ z
    <g id="patch_27">
     <path d="M 512.027648 226.814125 
 L 527.449537 226.814125 
-L 527.449537 213.048411 
-L 512.027648 213.048411 
+L 527.449537 206.259839 
+L 512.027648 206.259839 
 z
 " clip-path="url(#pf2102f68cb)" style="fill: url(#h6089867b84); opacity: 0.45; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
@@ -374,13 +374,13 @@ L 533.57875 226.814125
 " style="fill: none; stroke: #e4e3df; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_14">
-    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="519.738593" y="210.048411" transform="rotate(-0 519.738593 210.048411)">73 (open)</text>
+    <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="519.738593" y="203.259839" transform="rotate(-0 519.738593 203.259839)">109 (open)</text>
    </g>
    <g id="text_15">
     <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="499.966939" y="44.294125" transform="rotate(-0 499.966939 44.294125)">952 (open)</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="31.37875" y="30.621253" transform="rotate(-0 31.37875 30.621253)">TimeToBuildBob · hatched = open month, still recomputed · as of 2026-11-02</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="31.37875" y="30.621253" transform="rotate(-0 31.37875 30.621253)">TimeToBuildBob · hatched = open month, still recomputed · as of 2026-11-03</text>
    </g>
    <g id="text_17">
     <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="31.37875" y="16.318125" transform="rotate(-0 31.37875 16.318125)">Merged public PRs per month</text>
