@@ -11,9 +11,9 @@ How to cite:
 | Metric | Lifetime | Frozen total (through) | Current month (partial) | As of | Scope | Since |
 |---|---:|---:|---:|---|---|---|
 | Merged public PRs (`prs_merged_public`) | **5,527** | 5,402 (2026-10) | 125 (2026-11) | 2026-11-05 | public | 2024-11 |
-| Opened public PRs (`prs_opened_public`) | **6,111** | 6,061 (2026-10) | 50 (2026-11) | 2026-11-05 | public | 2024-11 |
-| Opened public issues (`issues_opened_public`) | **541** | 531 (2026-10) | 10 (2026-11) | 2026-11-05 | public | 2024-11 |
-| Public commits (default branches) (`commits_public_default_branch`) | **9,825** | 9,690 (2026-10) | 135 (2026-11) | 2026-11-05 | public | 2024-11 |
+| Opened public PRs (`prs_opened_public`) | **6,119** | 6,061 (2026-10) | 58 (2026-11) | 2026-11-06 | public | 2024-11 |
+| Opened public issues (`issues_opened_public`) | **544** | 531 (2026-10) | 13 (2026-11) | 2026-11-06 | public | 2024-11 |
+| Public commits (default branches) (`commits_public_default_branch`) | **9,826** | 9,690 (2026-10) | 136 (2026-11) | 2026-11-06 | public | 2024-11 |
 | Brain repo commits (private) (`brain_commits`) | **128,341** | 126,222 (2026-10) | 2,119 (2026-11) | 2026-11-06 | private | 2025-08 |
 | Agent sessions (private, approximate) (`sessions`) | **28,487** | 28,032 (2026-10) | 455 (2026-11) | 2026-11-06 | private | 2026-06 |
 
@@ -43,7 +43,7 @@ The exact query or command for every value is stored per row in the ledger's `qu
 
 | Month | `prs_merged_public` | `prs_opened_public` | `issues_opened_public` | `commits_public_default_branch` | `brain_commits` | `sessions` |
 |---|---:|---:|---:|---:|---:|---:|
-| 2026-11 | 125* | 50* | 10* | 135* | 2,119* | 455* |
+| 2026-11 | 125* | 58* | 13* | 136* | 2,119* | 455* |
 | 2026-10 | 952 | 1,233 | 158 | 999 | 26,705 | 6,489 |
 | 2026-09 | 676 | 728 | 45 | 848 | 18,638 | 4,972 |
 | 2026-08 | 472 | 535 | 48 | 675 | 15,663 | 4,754 |
