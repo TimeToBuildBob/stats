@@ -39,7 +39,7 @@ commits_public_default_branch,2026-07,798,true,github-search,GET /search/commits
 commits_public_default_branch,2026-08,675,true,github-search,GET /search/commits?q=author:TimeToBuildBob is:public committer-date:2026-08-01..2026-08-31,2026-09-14T09:12:04Z
 commits_public_default_branch,2026-09,848,true,github-search,GET /search/commits?q=author:TimeToBuildBob is:public committer-date:2026-09-01..2026-09-30,2026-10-01T11:40:47Z
 commits_public_default_branch,2026-10,999,true,github-search,GET /search/commits?q=author:TimeToBuildBob is:public committer-date:2026-10-01..2026-10-31,2026-10-31T10:59:00Z
-commits_public_default_branch,2026-11,155,false,github-search,GET /search/commits?q=author:TimeToBuildBob is:public committer-date:2026-11-01..2026-11-30,2026-11-07T11:48:22Z
+commits_public_default_branch,2026-11,214,false,github-search,GET /search/commits?q=author:TimeToBuildBob is:public committer-date:2026-11-01..2026-11-30,2026-11-08T11:59:38Z
 issues_opened_public,2024-11,0,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2024-11-01..2024-11-30,2026-09-14T09:12:04Z
 issues_opened_public,2024-12,0,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2024-12-01..2024-12-31,2026-09-14T09:12:04Z
 issues_opened_public,2025-01,0,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2025-01-01..2025-01-31,2026-09-14T09:12:04Z
@@ -64,7 +64,7 @@ issues_opened_public,2026-07,51,true,github-search,GET /search/issues?q=author:T
 issues_opened_public,2026-08,48,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2026-08-01..2026-08-31,2026-09-14T09:12:04Z
 issues_opened_public,2026-09,45,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2026-09-01..2026-09-30,2026-10-01T11:40:47Z
 issues_opened_public,2026-10,158,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2026-10-01..2026-10-31,2026-11-01T11:54:08Z
-issues_opened_public,2026-11,18,false,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2026-11-01..2026-11-30,2026-11-07T11:48:22Z
+issues_opened_public,2026-11,23,false,github-search,GET /search/issues?q=author:TimeToBuildBob is:issue is:public created:2026-11-01..2026-11-30,2026-11-08T11:59:38Z
 prs_merged_public,2024-11,0,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2024-11-01..2024-11-30,2026-09-14T09:12:04Z
 prs_merged_public,2024-12,0,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2024-12-01..2024-12-31,2026-09-14T09:12:04Z
 prs_merged_public,2025-01,2,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2025-01-01..2025-01-31,2026-09-14T09:12:04Z
@@ -89,7 +89,7 @@ prs_merged_public,2026-07,517,true,github-search,GET /search/issues?q=author:Tim
 prs_merged_public,2026-08,472,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2026-08-01..2026-08-31,2026-09-14T09:12:04Z
 prs_merged_public,2026-09,676,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2026-09-01..2026-09-30,2026-10-01T11:40:47Z
 prs_merged_public,2026-10,952,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2026-10-01..2026-10-31,2026-10-31T10:59:00Z
-prs_merged_public,2026-11,143,false,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2026-11-01..2026-11-30,2026-11-07T11:48:22Z
+prs_merged_public,2026-11,196,false,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:merged is:public merged:2026-11-01..2026-11-30,2026-11-08T11:59:38Z
 prs_opened_public,2024-11,0,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2024-11-01..2024-11-30,2026-09-14T09:12:04Z
 prs_opened_public,2024-12,0,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2024-12-01..2024-12-31,2026-09-14T09:12:04Z
 prs_opened_public,2025-01,2,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2025-01-01..2025-01-31,2026-09-14T09:12:04Z
@@ -114,7 +114,7 @@ prs_opened_public,2026-07,553,true,github-search,GET /search/issues?q=author:Tim
 prs_opened_public,2026-08,535,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2026-08-01..2026-08-31,2026-09-14T09:12:04Z
 prs_opened_public,2026-09,728,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2026-09-01..2026-09-30,2026-10-01T11:40:47Z
 prs_opened_public,2026-10,1233,true,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2026-10-01..2026-10-31,2026-11-01T11:54:08Z
-prs_opened_public,2026-11,94,false,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2026-11-01..2026-11-30,2026-11-07T11:48:22Z
+prs_opened_public,2026-11,139,false,github-search,GET /search/issues?q=author:TimeToBuildBob is:pr is:public created:2026-11-01..2026-11-30,2026-11-08T11:59:38Z
 sessions,2026-06,6806,true,brain-host,"state/sessions/*.result.json where agent_id~^bob- and status=completed and reason in (clean_exit,nonzero_exit,timeout) and duration_seconds>=60 and model !~ <synthetic>|\b(test|mock|unknown|fake|dummy)\b; month(completed_at UTC); dedup session_id",2026-10-07T19:56:27Z
 sessions,2026-07,5011,true,brain-host,"state/sessions/*.result.json where agent_id~^bob- and status=completed and reason in (clean_exit,nonzero_exit,timeout) and duration_seconds>=60 and model !~ <synthetic>|\b(test|mock|unknown|fake|dummy)\b; month(completed_at UTC); dedup session_id",2026-10-07T19:56:27Z
 sessions,2026-08,4754,true,brain-host,"state/sessions/*.result.json where agent_id~^bob- and status=completed and reason in (clean_exit,nonzero_exit,timeout) and duration_seconds>=60 and model !~ <synthetic>|\b(test|mock|unknown|fake|dummy)\b; month(completed_at UTC); dedup session_id",2026-10-07T19:56:27Z
