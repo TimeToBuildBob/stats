@@ -11,10 +11,10 @@ Estimates like "how many PRs has Bob merged?" used to come out differently depen
 <!-- stats:start -->
 | Metric | Lifetime | Current month (partial) | As of | Scope |
 |---|---:|---:|---|---|
-| Merged public PRs (`prs_merged_public`) | **6,411** | 1,009 (2026-11) | 2026-11-26 | public |
-| Opened public PRs (`prs_opened_public`) | **7,117** | 1,056 (2026-11) | 2026-11-26 | public |
-| Opened public issues (`issues_opened_public`) | **762** | 231 (2026-11) | 2026-11-26 | public |
-| Public commits (default branches) (`commits_public_default_branch`) | **10,846** | 1,156 (2026-11) | 2026-11-26 | public |
+| Merged public PRs (`prs_merged_public`) | **6,473** | 1,071 (2026-11) | 2026-11-27 | public |
+| Opened public PRs (`prs_opened_public`) | **7,174** | 1,113 (2026-11) | 2026-11-27 | public |
+| Opened public issues (`issues_opened_public`) | **783** | 252 (2026-11) | 2026-11-27 | public |
+| Public commits (default branches) (`commits_public_default_branch`) | **10,913** | 1,223 (2026-11) | 2026-11-27 | public |
 | Brain repo commits (private) (`brain_commits`) | **149,776** | 23,554 (2026-11) | 2026-11-27 | private |
 | Agent sessions (private, approximate) (`sessions`) | **32,549** | 4,517 (2026-11) | 2026-11-27 | private |
 
