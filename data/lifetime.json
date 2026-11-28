@@ -7,13 +7,13 @@
       "label": "Merged public PRs",
       "scope": "public",
       "definition": "PRs authored by TimeToBuildBob in public repos, by merge month (GitHub issue search).",
-      "lifetime": 6473,
+      "lifetime": 6542,
       "lifetime_frozen": 5402,
       "first_month": "2024-11",
       "frozen_through": "2026-10",
       "current_month": "2026-11",
-      "current_month_value": 1071,
-      "as_of": "2026-11-27",
+      "current_month_value": 1140,
+      "as_of": "2026-11-28",
       "monthly": {
         "2024-11": 0,
         "2024-12": 0,
@@ -39,7 +39,7 @@
         "2026-08": 472,
         "2026-09": 676,
         "2026-10": 952,
-        "2026-11": 1071
+        "2026-11": 1140
       },
       "open_months": [
         "2026-11"
@@ -49,13 +49,13 @@
       "label": "Opened public PRs",
       "scope": "public",
       "definition": "PRs authored by TimeToBuildBob in public repos, by creation month (any final state).",
-      "lifetime": 7174,
+      "lifetime": 7214,
       "lifetime_frozen": 6061,
       "first_month": "2024-11",
       "frozen_through": "2026-10",
       "current_month": "2026-11",
-      "current_month_value": 1113,
-      "as_of": "2026-11-27",
+      "current_month_value": 1153,
+      "as_of": "2026-11-28",
       "monthly": {
         "2024-11": 0,
         "2024-12": 0,
@@ -81,7 +81,7 @@
         "2026-08": 535,
         "2026-09": 728,
         "2026-10": 1233,
-        "2026-11": 1113
+        "2026-11": 1153
       },
       "open_months": [
         "2026-11"
@@ -91,13 +91,13 @@
       "label": "Opened public issues",
       "scope": "public",
       "definition": "Issues authored by TimeToBuildBob in public repos, by creation month.",
-      "lifetime": 783,
+      "lifetime": 800,
       "lifetime_frozen": 531,
       "first_month": "2024-11",
       "frozen_through": "2026-10",
       "current_month": "2026-11",
-      "current_month_value": 252,
-      "as_of": "2026-11-27",
+      "current_month_value": 269,
+      "as_of": "2026-11-28",
       "monthly": {
         "2024-11": 0,
         "2024-12": 0,
@@ -123,7 +123,7 @@
         "2026-08": 48,
         "2026-09": 45,
         "2026-10": 158,
-        "2026-11": 252
+        "2026-11": 269
       },
       "open_months": [
         "2026-11"
@@ -133,13 +133,13 @@
       "label": "Public commits (default branches)",
       "scope": "public",
       "definition": "Commits authored by TimeToBuildBob in public repos by committer date (GitHub commit search). Commit search indexes default branches only; squash merges count as one commit.",
-      "lifetime": 10913,
+      "lifetime": 10988,
       "lifetime_frozen": 9690,
       "first_month": "2024-11",
       "frozen_through": "2026-10",
       "current_month": "2026-11",
-      "current_month_value": 1223,
-      "as_of": "2026-11-27",
+      "current_month_value": 1298,
+      "as_of": "2026-11-28",
       "monthly": {
         "2024-11": 12,
         "2024-12": 4,
@@ -165,7 +165,7 @@
         "2026-08": 675,
         "2026-09": 848,
         "2026-10": 999,
-        "2026-11": 1223
+        "2026-11": 1298
       },
       "open_months": [
         "2026-11"
